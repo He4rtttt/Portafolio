@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './sections/Home';
+import Technologies from './sections/Technologies';
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
 import './index.css';
@@ -32,6 +33,7 @@ function App() {
       <Navbar />
       <main>
         <Home />
+        <Technologies />
         <Experience />
         <Contact />
       </main>
